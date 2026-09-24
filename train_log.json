@@ -1,0 +1,138 @@
+{
+  "model_version": "DEON-LEN-1-alpha-0.1",
+  "architecture": "char-level vanilla RNN (NumPy, hand-written BPTT)",
+  "hidden_size": 64,
+  "vocab_size": 44,
+  "param_count": 9836,
+  "seq_len": 25,
+  "learning_rate": 0.1,
+  "max_iters": 4000,
+  "train_chars": 5445,
+  "val_chars": 606,
+  "loss_curve": [
+    {
+      "iter": 0,
+      "train_loss": 3.7541,
+      "val_loss": 3.7431,
+      "smooth_train_loss": 94.5139
+    },
+    {
+      "iter": 200,
+      "train_loss": 2.7517,
+      "val_loss": 2.7875,
+      "smooth_train_loss": 77.943
+    },
+    {
+      "iter": 400,
+      "train_loss": 2.5241,
+      "val_loss": 2.6428,
+      "smooth_train_loss": 64.2783
+    },
+    {
+      "iter": 600,
+      "train_loss": 2.4066,
+      "val_loss": 2.4971,
+      "smooth_train_loss": 53.0535
+    },
+    {
+      "iter": 800,
+      "train_loss": 2.3084,
+      "val_loss": 2.3769,
+      "smooth_train_loss": 43.8466
+    },
+    {
+      "iter": 1000,
+      "train_loss": 2.2833,
+      "val_loss": 2.4052,
+      "smooth_train_loss": 36.294
+    },
+    {
+      "iter": 1200,
+      "train_loss": 2.256,
+      "val_loss": 2.3807,
+      "smooth_train_loss": 30.1024
+    },
+    {
+      "iter": 1400,
+      "train_loss": 2.1987,
+      "val_loss": 2.3567,
+      "smooth_train_loss": 25.0267
+    },
+    {
+      "iter": 1600,
+      "train_loss": 2.2034,
+      "val_loss": 2.382,
+      "smooth_train_loss": 20.8658
+    },
+    {
+      "iter": 1800,
+      "train_loss": 2.1653,
+      "val_loss": 2.3499,
+      "smooth_train_loss": 17.4537
+    },
+    {
+      "iter": 2000,
+      "train_loss": 2.1271,
+      "val_loss": 2.3301,
+      "smooth_train_loss": 14.6554
+    },
+    {
+      "iter": 2200,
+      "train_loss": 2.1501,
+      "val_loss": 2.3398,
+      "smooth_train_loss": 12.3606
+    },
+    {
+      "iter": 2400,
+      "train_loss": 2.1022,
+      "val_loss": 2.3006,
+      "smooth_train_loss": 10.4797
+    },
+    {
+      "iter": 2600,
+      "train_loss": 2.1191,
+      "val_loss": 2.3115,
+      "smooth_train_loss": 8.9349
+    },
+    {
+      "iter": 2800,
+      "train_loss": 2.1334,
+      "val_loss": 2.2737,
+      "smooth_train_loss": 7.6659
+    },
+    {
+      "iter": 3000,
+      "train_loss": 2.1088,
+      "val_loss": 2.3097,
+      "smooth_train_loss": 6.6234
+    },
+    {
+      "iter": 3200,
+      "train_loss": 2.1121,
+      "val_loss": 2.3078,
+      "smooth_train_loss": 5.7666
+    },
+    {
+      "iter": 3400,
+      "train_loss": 2.1052,
+      "val_loss": 2.3123,
+      "smooth_train_loss": 5.0634
+    },
+    {
+      "iter": 3600,
+      "train_loss": 2.093,
+      "val_loss": 2.2948,
+      "smooth_train_loss": 4.4848
+    },
+    {
+      "iter": 3800,
+      "train_loss": 2.1124,
+      "val_loss": 2.2976,
+      "smooth_train_loss": 4.0092
+    }
+  ],
+  "final_train_loss": 2.0975,
+  "final_val_loss": 2.3705,
+  "training_wall_time_seconds": 6.18,
+  "checkpoint_path": "/home/claude/deon-len-1/checkpoints/len1_alpha.npz"
+}

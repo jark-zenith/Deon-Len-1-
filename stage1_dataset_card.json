@@ -1,0 +1,21 @@
+{
+  "dataset_name": "DEON-LEN Stage 1 Proof-of-Concept Corpus v0.1",
+  "source": "Originally authored for this project (Jark AI Tech Labs) as retellings, in original wording, of classic fable narratives that are themselves in the public domain by age and origin. No third-party text scraped or copied.",
+  "license": "Owned by Jark AI Tech Industries / Jark AI Tech Labs; free to use for internal training and evaluation.",
+  "download_date": "n/a (authored directly, not downloaded)",
+  "creation_date": "2026-09-24",
+  "num_documents": 14,
+  "num_characters": 6051,
+  "approx_word_count": 1100,
+  "unique_characters": 44,
+  "preprocessing_steps": [
+    "No cleaning needed at authoring time (already plain UTF-8 text, single paragraph per document, blank line separated)",
+    "Lowercased NOT applied at corpus level - case is preserved; tokenizer decides",
+    "Train/validation split performed at the character-sequence level after tokenization (see tokenizer/vocab.json and training/train_log.json)"
+  ],
+  "intended_use": "Stage 1 proof-of-pipeline only, per DEON-LEN training roadmap. NOT intended to give the model DEON-specific knowledge (that is Stage 2) or commercial-grade quality (that is Stage 3).",
+  "known_limitations": [
+    "Extremely small (a few thousand characters) - suitable only for demonstrating the pipeline end-to-end, not for producing fluent or reliable text generation",
+    "Narrow genre (fable narrative) and register - the model will only ever reflect this style at this stage"
+  ]
+}
