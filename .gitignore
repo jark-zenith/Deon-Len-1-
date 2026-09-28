@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+beta/checkpoints/
+beta/tokenizer.json
+beta/train_log.json
+*.pt
+*.pth
